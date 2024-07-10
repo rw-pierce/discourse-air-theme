@@ -4,12 +4,12 @@
   max-width: unset;
   color: var(--secondary);
   h1 {
-    font-size: 4em;
+    font-size: 3em;
   }
   p {
     font-size: 1.25em !important;
     font-weight: bold;
-    margin-bottom: 1em;
+    margin: 1em 0;
   }
   .btn {
     height: 100%;
@@ -584,4 +584,12 @@ html body #main-outlet {
 
 .title-voting {
   padding-left: 14px;
+}
+
+.category-title-header {
+  border-radius: 0.5em;
+}
+
+.b-header {
+  background-color: transparent !important;
 }
